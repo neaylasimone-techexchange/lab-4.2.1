@@ -2,20 +2,44 @@
 
 html {
     margin: 25px;
-    background-color: lightblue;
-    font-family: verdana;
+    font-family: Verdana, sans-serif;
     font-size: 20px;
+}
+
+body {
+    background-color: #f5f8fa;
+    color: #2e3a59;
+}
+
+.navbar {
+    background-color: #00b894;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 h3 {
     margin-top: 20px;
-    background-color: lightblue;
+    background-color: #00b894;
     font-size: 30px;
     font-weight: bolder;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 p {
     margin-top: 10px;
     margin-left: 15px;
-    background-color: lightblue;
+    
+    padding: 8px;
+    border-radius: 4px;
+}
+
+a.navbar-item:hover {
+    background-color: #009f84;
+    color: white;
 }
